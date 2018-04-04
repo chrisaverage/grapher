@@ -1,0 +1,2 @@
+# grapher
+Simple activity tracker.
