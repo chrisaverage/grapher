@@ -13,7 +13,7 @@
 #include <QMenu>
 #include <QDir>
 
-constexpr bool ENABLE_LOG = true;
+constexpr bool ENABLE_LOG = false;
 
 void logActivity()
 {
@@ -133,7 +133,7 @@ void openLogLocation()
     QString location = getLogDir();
     QDir(location).mkpath(".");
 
-    QProcess::execute("explorer " + location);
+    QProcess::execute("explorer " + QDir::toNativeSeparators(location));
 }
 
 int main(int argc, char *argv[])

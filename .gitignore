@@ -1,5 +1,3 @@
-# Prerequisites
-*.d
 
 # Compiled Object files
 *.slo
@@ -16,10 +14,6 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
 *.lai
 *.la
@@ -30,3 +24,6 @@
 *.exe
 *.out
 *.app
+
+# User files
+*.user

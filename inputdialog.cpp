@@ -66,6 +66,7 @@ QString InputDialog::exec()
 
     InputDialog dialog(&el);
     dialog.show();
+    dialog.activateWindow();
     dialog.raise();
 
     el.exec();
