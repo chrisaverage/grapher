@@ -13,7 +13,7 @@
 #include <QMenu>
 #include <QDir>
 
-constexpr bool ENABLE_LOG = false;
+constexpr bool ENABLE_LOG = true;
 
 void logActivity()
 {
